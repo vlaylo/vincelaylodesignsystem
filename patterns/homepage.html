@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>cyPutnam_DesignSystemExample</title>
+  	<title>Vince Laylo DS Homepage</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -10,6 +10,8 @@
 
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/fyn1bsd.css">
+  <link rel="icon" href="..\img\Group 19.png" type="image/x-icon"> 
   </head>
   <body>
     
@@ -17,7 +19,7 @@
       <nav id="sidebar">
         <div class="custom-menu">
           <button type="button" id="sidebarCollapse" class="toggle-btn">
-      
+            
                     <div id="nav-icon1" >
                 <span></span>
                 <span></span>
@@ -26,7 +28,7 @@
                </button>
           </div>
 		<div class="p-4 pt-6">
-		  <h1><a href="../index.html" class="logo">Your Logo</a></h1>
+		  <h1><a href="..\index.html" class="logo"><img id="logo" src="..\img\Group 3.png"></a></h1>
 
 	       <ul class="list-unstyled components">
 	     
@@ -48,15 +50,12 @@
 	          
 	          <li>
               <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
-              <ul class="collapse list-unstyled" id="ComponentsSubmenu">
+              <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
                <li>
-                    <a href="../components/component1.html">Comp-1-label</a>
+                    <a href="..\components\nav.html">Navbar</a>
                 </li>
                 <li>
-                    <a href="../components/component2.html">Comp-2-label</a>
-                </li>
-                <li>
-                    <a href="../components/component3.html">Comp-3-label</a>
+                    <a href="..\components\buttons.html">Buttons</a>
                 </li>
               </ul>
 	          </li>
@@ -64,12 +63,12 @@
 	          <li>
               <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
               <ul class="collapse.show list-unstyled" id="PatternsSubmenu">
-                 <li>
-                    <a href="#">Pattern-1-label</a>
-                </li>
                 <li>
-                    <a href="pattern2.html">Pattern-2-label</a>
-                </li>
+                  <a href="../patterns/homepage.html">Home</a>
+              </li>
+              <li>
+                  <a href="../patterns/projects.html">Project</a>
+              </li>
                
               </ul>
 	          </li>
@@ -88,38 +87,60 @@
           <div class = "row p-5 pt-6">
             <div id="content">
 
-              <h2>Pattern 1 (e.g., homepage)</h2>
-              <p>See posted student examples. I created the pagination here if you want to use it. </p>
+              <h2>Homepage</h2>
+              <p>The homepage content is 1280px maximum width on a 12-column grid. There is a minimum 24px padding on the left and right borders.</p>
+              <code>max-width: 1280px; <br> 
+              padding: 0 32px;</code>
+              <br><br><br>
 
               <!-- Pagination buttons -->
                 <nav aria-label="homepage pages">
                   <ul class="pagination">
                  
-                    <li class="page-item" aria-current="Homepage Web Layout">
-                      <a class="page-link" href="pattern1.html">
-                      Web Layout</a>
-                    </li>
-                    <li class="page-item active">
-                      <a class="page-link" href="homepage_grid.html">Web Grid</a>
+                    <li class="page-item active" aria-current="Homepage Web Layout">
+                      <a class="page-link" href="#">
+                      Web</a>
                     </li>
                     <li class="page-item">
-                      <a class="page-link" href="homepage_mobile.html">Tablet Layout</a>
+                      <a class="page-link" href="homepage_tablet.html">Tablet</a>
                     </li>
                     <li class="page-item">
-                      <a class="page-link" href="homepage_mobile_grid.html">Tablet Grid</a>
-                    </li>
-                    
-                    <li class="page-item">
-                      <a class="page-link" href="homepage_phone.html">Phone Layout</a>
-                    </li>
-                     <li class="page-item">
-                      <a class="page-link" href="homepage_phone_grid.html">Phone Grid</a>
+                      <a class="page-link" href="homepage_mobile.html">Mobile</a>
                     </li>
                   </ul>
                 </nav>
-
             <!-- End Pagination buttons -->
-    		             
+
+            <br>
+            <br>
+              <h4 >Web Home Layout</h4>
+              <img style="border: 1px solid lightgray; max-height: 1000px; width: auto;" src="..\img\Home Web.jpg">
+ 
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+              <h4>Web Home Specs</h4>
+              <img style="border: 1px solid lightgray; max-height: 1000px; width: auto;" src="..\img\Home Web Specs.jpg">
+
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+
+              <h4>Web Home Grid</h4>
+              <img style="border: 1px solid lightgray; max-height: 1000px; width: auto;" src="..\img\Home Web + Grid.jpg">
+            <br>
+            <br>
     
         </div>      <!-- Content  -->
       </div><!-- Row  -->
